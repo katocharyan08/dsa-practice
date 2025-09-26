@@ -1,48 +1,23 @@
 package com.intro;
-import java.util.Scanner;
- 
-public class q1 {
-    public static void main(String[] args) {
-      try(Scanner in = new Scanner(System.in)){
-        
-        System.out.print("enter marks : ");
-        int marks = in.nextInt();
-        grade(marks);
 
-    }
-    }
-       static void grade(int marks){
+public class q1{
+    public static void main(String[] args){
+        //testcase1
+                int arr[] = {1,2,3,4,5,6};
+        //testcase2
+             // int arr[] = {10,20,30,40,50,60,70};
+             int evenSum = 0;
+             int oddSum = 0;
 
-                
-                 if( marks<=100 && marks>=91){
-                   System.out.println("student got AA grade ");
-                }
-                else if(marks <= 90 && marks>=81){
-                    System.out.println("student got AB grade ");
-                }
-                else if( marks <= 80 && marks>=71){
-                    System.out.println("student got BB grade ");
-                }
-                else if(marks <= 70 && marks>=61){
-                    System.out.println("student got BC grade ");
-                }
-                else if(marks <= 60 && marks>=51){
-                    System.out.println("student got CD grade ");
-                }
-                else if(marks <= 50 && marks>=41){
-                    System.out.println("student got DD grade ");
-                }
-                else if ( marks <= 40 && marks>=0){
-                      System.out.println("Fail");
-                }
-                else{
-                    System.out.println("invalid");
-                }
+        for(int i = 0;i<=arr.length;i++){
             
-       } 
-    
-    }   
-
-
+            evenSum = evenSum + arr[2*i];
+            
+            oddSum = oddSum + arr[2*i + 1];
+        }
+        System.out.println("even sum : "+evenSum);
+        System.out.println("odd sum : "+oddSum);
+    }
+}
 
 

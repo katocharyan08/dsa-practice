@@ -1,11 +1,12 @@
 package com.dsa.sortingalgo;
 import java.util.Arrays;
 
-public class Main{
+public class Bubblesort{
     public static void main(String[] args){
-          int[] arr = {1,2,3,4,5};
+          int[] arr = {5,3,2,6,4};
+          System.out.println("before : {5,3,2,6,4}");
           bubbleSort(arr);
-          System.out.println(Arrays.toString(arr));
+          System.out.println("after : "+ Arrays.toString(arr));
     }
     public static void bubbleSort(int[] arr){
         //if array is already swapped
@@ -24,7 +25,7 @@ public class Main{
                   arr[j] = arr[j-1];
                 arr[j-1] = temp;
 
-                swapped = true;
+                swapped = true;//its only true when if statement hits
                }
             }
             if(swapped == false){

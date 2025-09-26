@@ -1,6 +1,6 @@
 package com.oops.staticex;
 
-//outside cannot be static bcoz didnot depend on other class 
+//outside cannot be static bcoz it did not depend on other class 
 //static class Fun{}
 
 //outside cannot be static bcoz didnot depend on other class 

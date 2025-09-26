@@ -3,25 +3,28 @@ import java.util.Arrays;
 
 public class Thirdlargest {
     public static void main(String[] args) {
-        int[] arr = {6,7,3,9,8,9,10};
+        int[] arr = {3,2,1};
        // int sort =   count(bubbleSort(arr));  MISTAKE
            //now time for count method
-   // static int count(int[] arr){
-     // int arr =  bubbleSort(arr); //MISTAKE
-     bubbleSort(arr);
-     System.out.println(Arrays.toString(arr));
-        int prev = 0;
-        int curr = 1;
-        int count = 1;
-        for(int i = 0; i < arr.length;i++){
-        if(arr[prev] != arr[curr]){
-           count++;
+           bubbleSort(arr);//array changed
+           System.out.println(Arrays.toString(arr));//prinnt new non decresing array
+           System.out.println(count(arr)); 
+    }
+     static int count(int[] arr){
+    // int arr =  bubbleSort(arr); //MISTAKE
+        int prevElem = arr[0];
+        int elemCount = 1;
+        for(int i = 1; i < arr.length;i++){
+        if(prevElem != arr[i]){
+           elemCount += 1;
+           prevElem = arr[i];
         }
-        if(count == 3){
-            System.out.println(curr); 
+        if(elemCount == 3){
+            return arr[i];
         }
+        
         }
-        // return -1;
+        return arr[0];
     }  
     
    
@@ -45,3 +48,4 @@ public class Thirdlargest {
     }
     
 }
+

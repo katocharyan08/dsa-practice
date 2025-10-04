@@ -29,6 +29,6 @@ public class q4{
      else{
         System.out.println("error");
      }
-     
+     sc.close();
     }
 }

@@ -12,5 +12,6 @@ public static void main(String[] args){
     else{
         System.out.println("consonent");
     }
+     sc.close();
 }
 }

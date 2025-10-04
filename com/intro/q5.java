@@ -16,5 +16,6 @@ public class q5{
             temp/=10;
         }
         System.out.println("reverse num : "+rev);
+     sc.close();
     }
 }

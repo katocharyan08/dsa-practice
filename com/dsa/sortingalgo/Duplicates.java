@@ -33,4 +33,4 @@ public class Duplicates {
 
 //what to do ? -> case : if multiple duplicates show error because in single array only one element should be repeated at a time, not more than one 
 //why to do ? -> example : {3,3,1,2,1} (wrong)
-//how to do ? ->
+//how to do ? -> 

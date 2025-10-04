@@ -39,6 +39,6 @@ public class Box {
     }
 
     public static void main(String[] args) {
-        Box bx1 = new Box();
+       // Box bx1 = new Box();
     }
 }

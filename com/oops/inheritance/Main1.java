@@ -31,9 +31,9 @@ public class Main1 {
 //but not by the type of object 
  
 
- Boxprice box7 = new Boxprice(6,10,5);
+// Boxprice box7 = new Boxprice(6,10,5);
 
- Boxprice box8 = new Boxprice(box7);
+// Boxprice box8 = new Boxprice(box7);
 // System.out.println(box8.mass);
  //for copy cons ,side is 6 ,weight is 10,cost is 5
 //  length = 6,width = 6 , height = 6

@@ -18,9 +18,9 @@ public class HCFandLCM {
         
          
         while(num1 % num2 != 0){
-              int c = num1 % num2;
+              int temp = num1 % num2;
               num1 = num2;
-              num2 = c;
+              num2 = temp;
         }
        int hcf = num2;
        System.out.println(hcf);

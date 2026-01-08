@@ -1,29 +1,33 @@
 package com.intro;
+
 import java.util.Scanner;
 
-public class isPrime{
+public class isPrime {
    public static void main(String[] args) {
       Scanner in = new Scanner(System.in);
       System.out.print("enter num : ");
       int num = in.nextInt();
-      //basecase
-   if(num == 0 && num == 1){
-      
-   }
-      
-      for(int i = 2;i*i <= num;i++){
-       //basecase
-         if(i == 0 && i ==1){
-              continue;//because we don't need to check for these two
+
+      boolean isPrime = true;
+
+      // basecase
+      if (num <= 1) {
+         isPrime = false;// because we don't need to check for these two
+      } else {
+         int i = 2;
+         while (i * i <= num) {
+            if (num % i == 0) {
+               isPrime = false;
+               break;
+            }
+            i++;
+         }
       }
-        else if(num % i == 0){
-           System.out.println("not prime ");
-           break;
-         }
-         else{
-            System.out.println("the given num is prime");
-            break;
-         }
+      if(isPrime == true){
+         System.out.println("num is prime");
+      }
+      else{
+         System.out.println("num is not prime");
       }
       in.close();
    }

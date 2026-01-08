@@ -1,0 +1,42 @@
+Perfect — let’s lay out those 12 recursion problems in a **step‑by‑step roadmap** so you can practice them in increasing difficulty without feeling overwhelmed.  
+
+---
+
+## 🚀 Recursion Practice Roadmap (Easy → Hard)
+
+### **Level 1: Foundations (Easy)**
+1. Print numbers from 1 to N without using loops  
+2. Factorial of a number using recursion  
+3. Reverse a string using recursion  
+4. Check if an array is sorted using recursion  
+
+👉 These build your comfort with the *basic recursive structure* (base case + recursive call).
+
+---
+
+### **Level 2: Core Applications (Medium)**
+5. Fibonacci number (nth term) using recursion  
+6. Sum of digits of a number using recursion  
+7. Recursive bubble sort or insertion sort (pick one)  
+8. Palindromic partitions of a string  
+
+👉 These strengthen your ability to apply recursion to *mathematical problems and string manipulations*.
+
+---
+
+### **Level 3: Advanced Problem-Solving (Hard)**
+9. Rat in a Maze problem (find all paths)  
+10. Word Search (backtracking with recursion)  
+11. N-Queens problem  
+12. Sudoku Solver  
+
+👉 These are classic *backtracking problems* where recursion explores multiple paths and constraints.
+
+---
+
+💡 **Tip for practice:**  
+- Do **Level 1 in one sitting** (they’re short).  
+- Spend more time on **Level 2**, especially string problems.  
+- For **Level 3**, tackle one at a time — they’re bigger projects that test your patience and debugging skills.  
+
+Would you like me to also give you a **hint/approach outline for each problem** so you don’t get stuck while practicing?

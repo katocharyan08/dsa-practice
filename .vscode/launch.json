@@ -6,6 +6,195 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.ReverseString",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.dsa.string.Main",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Fact",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.Fact",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "BS",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.BS",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Fibo",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.Fibo",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "SB",
+            "request": "launch",
+            "mainClass": "com.dsa.string.SB",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Typecasting",
+            "request": "launch",
+            "mainClass": "com.dsa.string.Typecasting",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "PlusOp",
+            "request": "launch",
+            "mainClass": "com.dsa.string.PlusOp",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "PrettyPrinting",
+            "request": "launch",
+            "mainClass": "com.dsa.string.PrettyPrinting",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Comparison",
+            "request": "launch",
+            "mainClass": "com.dsa.string.Comparison",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.dsa.String.Main",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Goodaldgo",
+            "request": "launch",
+            "mainClass": "com.DAofALGO.Goodaldgo",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Badalgo",
+            "request": "launch",
+            "mainClass": "com.DAofALGO.Badalgo",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "FirstMissingPositive",
+            "request": "launch",
+            "mainClass": "com.dsa.sortingalgo.FirstMissingPositive",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "MissingDuplicates",
+            "request": "launch",
+            "mainClass": "com.dsa.sortingalgo.MissingDuplicates",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "TrailingZeroFact",
+            "request": "launch",
+            "mainClass": "com.intro.TrailingZeroFact",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "RecrSum",
+            "request": "launch",
+            "mainClass": "com.intro.RecrSum",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "RecurFactorial",
+            "request": "launch",
+            "mainClass": "com.intro.RecurFactorial",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "LCM",
+            "request": "launch",
+            "mainClass": "com.intro.LCM",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "GCD2",
+            "request": "launch",
+            "mainClass": "com.intro.GCD2",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "GCD",
+            "request": "launch",
+            "mainClass": "com.intro.GCD",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "TrailingZero",
+            "request": "launch",
+            "mainClass": "com.intro.TrailingZero",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Factorial1",
+            "request": "launch",
+            "mainClass": "com.intro.Factorial1",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "AllDuplicates",
+            "request": "launch",
+            "mainClass": "com.dsa.sortingalgo.AllDuplicates",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Numbers",
+            "request": "launch",
+            "mainClass": "com.oops.polymorphism.Numbers",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "FindDuplicates",
+            "request": "launch",
+            "mainClass": "com.dsa.sortingalgo.FindDuplicates",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Allprime",
+            "request": "launch",
+            "mainClass": "com.intro.Allprime",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "isPrime",
             "request": "launch",
             "mainClass": "com.intro.isPrime",

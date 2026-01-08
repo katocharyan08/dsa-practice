@@ -1,4 +1,4 @@
-package com.dsa.array;
+
 
 public class Deletion {
     public static void main(String[] args) {

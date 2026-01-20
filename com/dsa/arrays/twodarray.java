@@ -1,4 +1,4 @@
-package com.dsa.array;
+package com.dsa.arrays;
 
 import java.util.*;
 public class twodarray {

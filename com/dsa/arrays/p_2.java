@@ -1,4 +1,4 @@
-package com.dsa.array;
+package com.dsa.arrays;
 //for minimum element in array
 
 public class p_2 {

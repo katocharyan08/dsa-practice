@@ -1,4 +1,4 @@
-package com.dsa.array;
+package com.dsa.arrays;
 public class Range {
     public static void main(String[] args) {
         int[] arr = {434,64545,554563,763487,973474,6567,43663,73476};

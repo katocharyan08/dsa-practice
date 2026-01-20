@@ -1,11 +1,11 @@
-package com.dsa.array;
+package com.dsa.arrays;
 // find weather an array is sorted or not..
-public class p_3_O{
+public class p_3{
     public static void main (String[] args){
      boolean isSorted  = true;//default true   
-        int[] array = {23,74,88,893,145};
+        int[] array = {23,74,58,23,45};
         for(int i=0;i<array.length-1;i++){
-          if(array[i] > array[i+1]){
+          if(array[i] > array[i+1]){//idx:2 > idx:3 then is sorted false 
             isSorted=false;
             break;
         }

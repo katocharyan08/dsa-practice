@@ -1,14 +1,23 @@
 package com.dsa.recursion;
+import java.util.Arrays;
 
 public class ReverseString {
     public static void main(String[] args) {
          
-    String str = "aryan";
-    String result = "";
-    //normal way of reversing a String
-    // for(int i = 5; i >= 1 ;i-- ){
-    //    result = result + str.charAt(i - 1);
-    // }
-    // System.out.println(result);
+    String str = "Edward nathan";
+    char[] charArr = str.toCharArray();//built in method
+    reverse(charArr,0,charArr.length-1);
+    System.out.println(charArr);
+    }
+//using two pointer and recursion
+static void reverse(char[] arr,int start,int end){
+    //base case
+    if(start >= end){
+        return;
+    }
+    char temp = arr[start];
+         arr[start] = arr[end];
+         arr[end] = temp;
+      reverse(arr, start + 1, end - 1);   
 }
 }

@@ -1,4 +1,4 @@
-package com.dsa.array;
+package com.dsa.arrays;
 
 public class Max  {
     public static void main(String[] args) {

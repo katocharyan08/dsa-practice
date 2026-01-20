@@ -54,7 +54,7 @@ class Car{
     Car(Car other){
         //other is object refrence like car1
         this.name = other.name ;
-        this.color = other.name;
+        this.color = other.color;
         this.torque = other.torque;
     }
 }

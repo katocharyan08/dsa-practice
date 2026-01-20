@@ -6,6 +6,125 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindUnique",
+            "request": "launch",
+            "mainClass": "com.dsa.mathsfordsa.FindUnique",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Twod",
+            "request": "launch",
+            "mainClass": "com.dsa.tdarray.Twod",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Arr",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.Arr",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "TD",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.TD",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "TwoD",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.TwoD",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Pswap",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.Pswap",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Tdarray",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.Tdarray",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "com.oops.Demo",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "ClassandObject",
+            "request": "launch",
+            "mainClass": "com.oops.ClassandObject",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "OddEven",
+            "request": "launch",
+            "mainClass": "com.dsa.mathsfordsa.OddEven",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeString",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.PalindromeString",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "SumOfDigit",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.SumOfDigit",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "SortedRotatory",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.SortedRotatory",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "CheckSorted",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.CheckSorted",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.oops.project.Main",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.oops.polymorphism.Main",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "com.intro.ReverseString",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "ReverseString",
             "request": "launch",
             "mainClass": "com.dsa.recursion.ReverseString",

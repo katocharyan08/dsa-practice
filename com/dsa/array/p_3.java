@@ -1,4 +1,4 @@
-package com.dsa.arrays;
+
 // find weather an array is sorted or not..
 public class p_3{
     public static void main (String[] args){

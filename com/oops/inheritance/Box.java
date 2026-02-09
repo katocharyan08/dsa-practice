@@ -9,7 +9,7 @@ public class Box {
 
     //default constructor
     Box(){
-        // super();   it must be the very first statement
+        //super();   //it must be the very first statement
         this.length = 3;
         this.width = 4;
         this.height = 2;

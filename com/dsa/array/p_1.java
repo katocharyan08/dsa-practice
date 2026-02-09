@@ -1,5 +1,4 @@
-package com.dsa.arrays;
-//find the maximum element in an array
+
 
 public class p_1 {
     public static void main (String[] args){

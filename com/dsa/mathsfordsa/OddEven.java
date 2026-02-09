@@ -1,6 +1,6 @@
 package com.dsa.mathsfordsa;
 //problem : find the given number is odd or even
-//intiution : check for last digit (2^0 place)
+//intuition : check for last digit (2^0 place)
 //approach : number&1 is equal to 1 considered as odd else even
 public class OddEven {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.dsa.arrays;
+
 
 public class BS {
     public static int main(String[] args) {

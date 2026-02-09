@@ -1,4 +1,4 @@
-package com.dsa.arrays;
+
 public class Traverse{
     public static void main (String[] args){
         int[] arr = {2,5,7,8,9};

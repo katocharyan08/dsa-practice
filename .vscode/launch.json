@@ -6,6 +6,146 @@
     "configurations": [
         {
             "type": "java",
+            "name": "XorOfNumII",
+            "request": "launch",
+            "mainClass": "com.dsa.mathsfordsa.XorOfNumII",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "XorOfNumI",
+            "request": "launch",
+            "mainClass": "com.dsa.mathsfordsa.XorOfNumI",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "RemoveArrayII",
+            "request": "launch",
+            "mainClass": "com.patternwisesolving.twopointer.RemoveArrayII",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "MoveZeros",
+            "request": "launch",
+            "mainClass": "com.patternwisesolving.twopointer.MoveZeros",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "AtoPowerB",
+            "request": "launch",
+            "mainClass": "com.dsa.mathsfordsa.AtoPowerB",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicates",
+            "request": "launch",
+            "mainClass": "com.patternwisesolving.RemoveDuplicates",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Geeks",
+            "request": "launch",
+            "mainClass": "com.oops.encapsulation.Geeks",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.oops.abstraction.Main",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "PowerOfTwo",
+            "request": "launch",
+            "mainClass": "com.dsa.mathsfordsa.PowerOfTwo",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "MoveZero",
+            "request": "launch",
+            "mainClass": "com.dsa.MoveZero",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "MoveZeros",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.MoveZeros",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Max",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.Max",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "CountBits",
+            "request": "launch",
+            "mainClass": "com.dsa.mathsfordsa.CountBits",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "OneVsThree",
+            "request": "launch",
+            "mainClass": "com.dsa.mathsfordsa.OneVsThree",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "PascalTriangle",
+            "request": "launch",
+            "mainClass": "com.dsa.mathsfordsa.PascalTriangle",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "NoOfDigits",
+            "request": "launch",
+            "mainClass": "com.dsa.mathsfordsa.NoOfDigits",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "MagicNum",
+            "request": "launch",
+            "mainClass": "com.dsa.mathsfordsa.MagicNum",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Deletion",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.Deletion",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Insertion",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.Insertion",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "FindBit",
+            "request": "launch",
+            "mainClass": "com.dsa.mathsfordsa.FindBit",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "FindUnique",
             "request": "launch",
             "mainClass": "com.dsa.mathsfordsa.FindUnique",

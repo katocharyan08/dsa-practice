@@ -1,4 +1,4 @@
-package com.dsa.arrays;
+
 import java.util.Arrays;
 
 public class Reversearray {

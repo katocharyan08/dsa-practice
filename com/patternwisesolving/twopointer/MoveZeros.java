@@ -1,5 +1,8 @@
 package com.patternwisesolving.twopointer;
-
+//problem : find all zeros and move them at last after a non zero number in an array
+//intuition : perform swap using slow fast pointer approach
+//approach : fast pointer scans for non-zero number and swap it with slow
+//time complexity : O(n) and space complexity ; O(1)
 import java.util.Arrays;
 
 public class MoveZeros {

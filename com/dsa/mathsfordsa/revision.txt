@@ -1,0 +1,5 @@
+revision
+
+1. Flipping an image 
+2. pascal triangle
+3. magic number

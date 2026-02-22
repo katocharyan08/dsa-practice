@@ -1,5 +1,7 @@
 package com.dsa.tdarray;
 
+
+
 public class Twod {
     public static void main(String[] args) {
         int[][] arr = new int[3][];
@@ -15,6 +17,7 @@ public class Twod {
                 for(int nums2 : nums1){
                     System.out.println(nums2);
                 }
+
             }          
 
     }

@@ -4,9 +4,9 @@ package com.oops.encapsulation;
     //data hiding
       private String name;
       protected int num;
-      public int car;
+      public String car;
 
-      Programmer(String name,int num,int car){
+      Programmer(String name,int num,String car){
          this.name = name;
          this.num = num;
          this.car = car;
@@ -24,7 +24,7 @@ package com.oops.encapsulation;
 //getter and setter methods are not static because they work on instance data,not class data
 public class Geeks{
    public static void main(String[] args) {
-      Programmer p1 = new Programmer();
+      Programmer p1 = new Programmer(null, 0, null);
       p1.setName("Aryan");
      System.out.println(p1.getName());
      

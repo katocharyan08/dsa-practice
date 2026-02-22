@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RowWise",
+            "request": "launch",
+            "mainClass": "com.dsa.tdarray.RowWise",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "C",
+            "request": "launch",
+            "mainClass": "com.oops.encapsulation.C",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "B",
+            "request": "launch",
+            "mainClass": "com.oops.encapsulation.B",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Hellos",
+            "request": "launch",
+            "mainClass": "com.Hellos",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "A",
+            "request": "launch",
+            "mainClass": "com.oops.encapsulation.A",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "XorOfNumII",
             "request": "launch",
             "mainClass": "com.dsa.mathsfordsa.XorOfNumII",

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Prime",
+            "request": "launch",
+            "mainClass": "com.dsa.mathsfordsa.Prime",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "MaxSumSubarray",
+            "request": "launch",
+            "mainClass": "com.patternwisesolving.slidingwindow.MaxSumSubarray",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "RowWise",
             "request": "launch",
             "mainClass": "com.dsa.tdarray.RowWise",

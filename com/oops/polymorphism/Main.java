@@ -7,10 +7,10 @@ public class Main {
 		Shapes circle = new Circle();
 		Shapes square = new Square();
 		Numbers obj = new Numbers();
-		System.out.println(obj.sum(43.4,3));
-		//shape.area();      
-        circle.area();
-        //square.area();
+		//System.out.println(obj.sum(43.4,3));
+		shape.area();     
+		circle.area();
+        square.area();
 	}
 
 }

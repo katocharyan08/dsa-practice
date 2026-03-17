@@ -9,7 +9,7 @@ time complexity : O(n * log(log(n))) and space complexity : O(n) {for extra spac
 */
 public class Seive {
     public static void main(String[] args) {
-        int n = 40;
+        int n = 30;
         boolean[] primes = new boolean[n+1];
         seive(primes,n);
     }
@@ -17,7 +17,7 @@ public class Seive {
         for(int i = 2;i*i <= n; i++){
             if(!primes[i]){//for false
                 for(int j = i*2;j <= n; j+=i){
-                    primes[j] = true;
+                    primes[j] = true;//mark
                 }
             }
         }

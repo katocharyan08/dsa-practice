@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BSSQRT",
+            "request": "launch",
+            "mainClass": "com.dsa.mathsfordsa.BSSQRT",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.oops.interfaces.nested.Main",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.oops.interfaces.extendsdemo2.Main",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.oops.interfaces.Main",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "Seive",
             "request": "launch",
             "mainClass": "com.dsa.mathsfordsa.Seive",

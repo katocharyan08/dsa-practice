@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NewtonMethod",
+            "request": "launch",
+            "mainClass": "com.dsa.mathsfordsa.NewtonMethod",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "BSSQRT",
             "request": "launch",
             "mainClass": "com.dsa.mathsfordsa.BSSQRT",

@@ -1,3 +1,6 @@
+//Problem : Find square root of a number using binary search
+//time complexity : O(log(n)) and space cmoplexity : O(1)
+
 package com.dsa.mathsfordsa;
 
 public class BSSQRT {

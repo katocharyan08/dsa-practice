@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.oops.generics.comparing.Main",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "ColWise",
+            "request": "launch",
+            "mainClass": "com.dsa.tdarray.ColWise",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "ReverseRows",
+            "request": "launch",
+            "mainClass": "com.dsa.tdarray.ReverseRows",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "aaa",
+            "request": "launch",
+            "mainClass": "com.intro.aaa",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "pyramid",
+            "request": "launch",
+            "mainClass": "com.dsa.pattern.pyramid",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Inverted",
+            "request": "launch",
+            "mainClass": "com.dsa.pattern.Inverted",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "RightTriangle",
+            "request": "launch",
+            "mainClass": "com.dsa.pattern.RightTriangle",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "CustomGenArraylist",
+            "request": "launch",
+            "mainClass": "com.oops.generics.CustomGenArraylist",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "CustomArraylist",
+            "request": "launch",
+            "mainClass": "com.oops.generics.CustomArraylist",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "NewtonMethod",
             "request": "launch",
             "mainClass": "com.dsa.mathsfordsa.NewtonMethod",

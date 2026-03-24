@@ -1,9 +1,12 @@
-package com.intro;
+package  com.intro;
 
-public class p1 {
+import java.util.Arrays;
+
+public class p4 {
     public static void main(String[] args) {
-        int[] arr = {6,2,46,22,22};
-        System.out.println(secLargest(arr));
+        int[] arr = {5,2,4,1,3};
+        bubbleSort(arr);
+        System.out.println(Arrays.toString(arr));
     }
     static void bubbleSort(int[] arr){
         for(int i = 0;i <= arr.length-2;i++){
@@ -16,16 +19,5 @@ public class p1 {
                 }
             }
         }
-    }
-    static int secLargest(int[] arr){
-        bubbleSort(arr);
-        int secLarg = -1;
-        int n = arr.length;
-        for(int i = 1;i < n;i++)
-         if(arr[n - 1 - i] < arr[n - i]){
-            secLarg = arr[n - 1 -i];
-            break;
-         }
-         return secLarg;
     }
 }

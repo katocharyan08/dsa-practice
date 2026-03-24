@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Factor",
+            "request": "launch",
+            "mainClass": "com.dsa.mathsfordsa.Factor",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "p3",
+            "request": "launch",
+            "mainClass": "comp.p3",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "p2",
+            "request": "launch",
+            "mainClass": "comp.p2",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "p5",
+            "request": "launch",
+            "mainClass": "comp.p5",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "p4",
+            "request": "launch",
+            "mainClass": "comp.p4",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "p1",
+            "request": "launch",
+            "mainClass": "comp.p1",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "com.oops.generics.comparing.Main",

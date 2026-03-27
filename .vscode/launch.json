@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReverseArray",
+            "request": "launch",
+            "mainClass": "test.recursion.ReverseArray",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "printNnum",
+            "request": "launch",
+            "mainClass": "test.recursion.printNnum",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Factor",
+            "request": "launch",
+            "mainClass": "test.Factor",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "Factor",
             "request": "launch",
             "mainClass": "com.dsa.mathsfordsa.Factor",

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LambdaFunctions",
+            "request": "launch",
+            "mainClass": "com.oops.generics.LambdaFunctions",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Checkpali",
+            "request": "launch",
+            "mainClass": "test.recursion.Checkpali",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "ReverseArray",
             "request": "launch",
             "mainClass": "test.recursion.ReverseArray",

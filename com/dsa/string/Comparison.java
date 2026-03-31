@@ -2,7 +2,8 @@ package com.dsa.string;
 
 public class Comparison {
     public static void main(String[] args) {
-        String a = "kunal";
+        String a = "ku nal";
+        
         String b = "kunal";
         String c = a;
         String d = new String("aryan");

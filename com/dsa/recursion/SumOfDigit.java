@@ -8,19 +8,14 @@ package com.dsa.recursion;
 
 public class SumOfDigit{
     public static void main(String[] args) {
-        System.out.println(func(12459, 0));
+        System.out.println(func(12459));
     }
-    static int func(int num ,int sum){
+    static int func(int num ){
         //basecase 
         if (num == 0){
-            return sum;
+            return 0;
         }
-        int remainder = num%10;//provide remainder
-        sum += remainder;
-        //recursive call 1
-        return func(num/10, sum);
 
-        //recursive call 2 method
-        //return (num%10) + func(num/10);
+        return (num%10) + func(num/10);
     }
 }

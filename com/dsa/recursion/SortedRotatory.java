@@ -1,5 +1,5 @@
 package com.dsa.recursion;
-//Array is sorted in circular motion ,but not linearly so we also have to compare first adn last element
+//Array is sorted in circular motion ,but not linearly so we also have to compare first and last element
 public class SortedRotatory {
     public static void main(String[] args) {
         int[] arr = {1,1,1};

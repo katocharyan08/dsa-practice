@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "_12",
+            "request": "launch",
+            "mainClass": "com.dsa.pattern._12",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "_11",
+            "request": "launch",
+            "mainClass": "com.dsa.pattern._11",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "NumOfSteps",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.NumOfSteps",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "CountZeros",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.CountZeros",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "NumReverse",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.NumReverse",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "DigitProduct",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.DigitProduct",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "LambdaFunctions",
             "request": "launch",
             "mainClass": "com.oops.generics.LambdaFunctions",

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LiearSearch",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.LiearSearch",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "_12",
             "request": "launch",
             "mainClass": "com.dsa.pattern._12",

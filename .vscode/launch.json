@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AllAscii",
+            "request": "launch",
+            "mainClass": "com.dsa.hashing.AllAscii",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "CharCount",
+            "request": "launch",
+            "mainClass": "com.dsa.hashing.CharCount",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "NumbersCount",
+            "request": "launch",
+            "mainClass": "com.dsa.hashing.NumbersCount",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "_15",
             "request": "launch",
             "mainClass": "com.dsa.pattern._15",

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "_16",
+            "request": "launch",
+            "mainClass": "com.dsa.pattern._16",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "AllAscii",
             "request": "launch",
             "mainClass": "com.dsa.hashing.AllAscii",

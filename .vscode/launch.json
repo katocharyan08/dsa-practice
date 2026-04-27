@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.dsa.hashing.Main",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.LinearSearch",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "_16",
             "request": "launch",
             "mainClass": "com.dsa.pattern._16",

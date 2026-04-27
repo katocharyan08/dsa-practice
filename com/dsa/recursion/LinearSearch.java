@@ -11,6 +11,7 @@ public class LinearSearch {
         //findAllIndex(arr,18, 0);
         // System.out.println(list);
         System.out.println(findAllIndex(arr, 18, 0, new ArrayList<>()));
+        System.out.println(findAll(arr, 18, 0));
     }
     static int findFromFirst(int[] arr, int target,int i){
         if(arr.length == i){
@@ -54,5 +55,22 @@ public class LinearSearch {
                 list.add(i);
             }
             return findAllIndex(arr, target, i+1,list);
+        }
+        // vvi method
+        static ArrayList<Integer> findAll(int[] arr , int target, int index){
+            ArrayList<Integer> list = new ArrayList<>();
+
+            if(index == arr.length){
+                return list;
+            }
+            //this contain hold answer for that function call only
+            if(arr[index] == target){
+                list.add(index);
+            }
+            ArrayList<Integer> ansFromBelowCall = findAll(arr, target, index+1);
+
+            list.addAll(ansFromBelowCall);
+
+            return list;
         }
 }

@@ -8,6 +8,8 @@ class MapUsingHash {
 }
     public void put(String key, String value){
         int hash = Math.abs(key.hashCode()% entities.length);
+
+        // we are not storing the object directly, we are storing address to that object
         entities[hash] = new Entity(key, value);// overriding ,no linked list involve
     }
 
@@ -24,6 +26,8 @@ class MapUsingHash {
             entities[hash] = null;
         }
     }
+
+    // Exist to support MapUsingHash
 private class Entity{
     String key;
     String value;

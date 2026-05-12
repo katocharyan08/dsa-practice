@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RotatedSorted",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.RotatedSorted",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "Pow",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.Pow",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "com.dsa.hashing.Main",

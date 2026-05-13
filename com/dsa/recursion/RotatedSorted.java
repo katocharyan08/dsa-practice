@@ -3,10 +3,12 @@ package com.dsa.recursion;
 public class RotatedSorted {
      public static void main(String[] args) {
         int[] arr = {5,6,1,2,3};
-        System.out.println(find(arr, 2, 0, arr.length-1));
+        System.out.println(find(arr, 6, 0, arr.length-1));
      }
      static int find(int[] arr, int target,int s , int e){
-        while(s <= e){
+            if(s > e){
+                return -1;
+            }
             int mid = s + (e - s)/2;
             if(arr[mid] == target){
                 return mid;
@@ -27,9 +29,7 @@ public class RotatedSorted {
         }
         else{
             return find(arr, target, s, mid - 1);
-        }
-        }
-        return -1;
+        }      
      }
 }
 

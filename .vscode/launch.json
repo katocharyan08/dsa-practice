@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.BubbleSort",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.SelectionSort",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
+            "name": "StarPattern1",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.StarPattern1",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "RotatedSorted",
             "request": "launch",
             "mainClass": "com.dsa.recursion.RotatedSorted",

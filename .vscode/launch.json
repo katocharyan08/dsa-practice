@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MergeSortInPlace",
+            "request": "launch",
+            "mainClass": "com.dsa.sortingalgo.MergeSortInPlace",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "MergeSort",
             "request": "launch",
             "mainClass": "com.dsa.sortingalgo.MergeSort",

@@ -2,7 +2,7 @@ package com.dsa.recursion;
 
 public class BasicStringProblem {
     public static void main(String[] args) {
-        removeChar("baccad", "");
+        System.out.println(skip("baccad"));    
     }
     // 1st way
     static void removeChar(String str, String ans){
@@ -15,8 +15,20 @@ public class BasicStringProblem {
             removeChar(str.substring(1), ans);
         }
         else{
-            ans = ans + ch;
-            removeChar(str.substring(1), ans);
+            removeChar(str.substring(1), ans + ch);
+        }
+    }
+    // 2nd way
+    static String skip(String str){
+        if(str.isEmpty()){
+            return "";
+        }
+        char ch = str.charAt(0);
+        if(ch == 'a'){
+            return skip(str.substring(1));
+        }
+        else{
+            return ch + skip(str.substring(1));
         }
     }
 }

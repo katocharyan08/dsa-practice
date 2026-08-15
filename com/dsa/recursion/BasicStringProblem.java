@@ -2,7 +2,7 @@ package com.dsa.recursion;
 
 public class BasicStringProblem {
     public static void main(String[] args) {
-        System.out.println(skip("baccad"));    
+        System.out.println(skipString("baccappledfg"));    
     }
     // 1st way
     static void removeChar(String str, String ans){
@@ -29,6 +29,18 @@ public class BasicStringProblem {
         }
         else{
             return ch + skip(str.substring(1));
+        }
+    }
+    // skip entire string like apple
+    static String skipString(String str){
+        if (str.isEmpty()){
+            return "";
+        }
+        if (str.startsWith("apple")){
+            return skipString(str.substring(5));
+        }
+        else{
+            return str.charAt(0) + skipString(str.substring(1));
         }
     }
 }

@@ -2,7 +2,7 @@ package com.dsa.recursion;
 
 public class BasicStringProblem {
     public static void main(String[] args) {
-        System.out.println(skipString("baccappledfg"));    
+        System.out.println(removeApp("baccappedfg"));    
     }
     // 1st way
     static void removeChar(String str, String ans){
@@ -42,5 +42,18 @@ public class BasicStringProblem {
         else{
             return str.charAt(0) + skipString(str.substring(1));
         }
+    }
+    //skip app when its not apple 
+    static String removeApp(String str){
+        if (str.isEmpty()){
+            return "";
+        }
+        if(str.startsWith("app") && !str.startsWith("apple")){
+            return removeApp(str.substring(3));
+        }
+        else{
+            return str.charAt(0) + removeApp(str.substring(1));
+        }
+
     }
 }

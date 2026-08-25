@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubSeq",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.SubSeq",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "BasicStringProblem",
             "request": "launch",
             "mainClass": "com.dsa.recursion.BasicStringProblem",

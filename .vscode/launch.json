@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Subset",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.Subset",
+            "projectName": "javaprog"
+        },
+        {
+            "type": "java",
             "name": "SubSeq",
             "request": "launch",
             "mainClass": "com.dsa.recursion.SubSeq",

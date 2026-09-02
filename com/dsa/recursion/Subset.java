@@ -10,7 +10,7 @@ public class Subset {
         //     System.out.println(list);
         // }
         int[] nums = {1,2,3};
-        List<List<Integer>> ans = subSets(nums);
+        List<List<Integer>> ans = subSetss(nums);
         System.out.println(ans);
     }
     //iteration
@@ -29,7 +29,7 @@ public class Subset {
     }
     return outer;
     }
-    //recursion
+    //recursion wit for loop
     static List<List<Integer>> subSets(int[] nums){
         List<List<Integer>> result = new ArrayList<>();
         backTrack(result,nums,new ArrayList<>(),0);
@@ -49,6 +49,25 @@ public class Subset {
             //remove
             inner.remove(inner.size() - 1);
         }
+    }
+    //recursion without for loop
+    static List<List<Integer>> subSetss(int[] nums){
+        List<List<Integer>> result = new ArrayList<>();
+        subsetss(result,nums,new ArrayList<>(),0);
+        return result; 
+    }
+    static void subsetss(List<List<Integer>> outer ,int[] nums ,List<Integer> inner ,int index){
+        if(index == nums.length){
+            outer.add(new ArrayList<>(inner));
+            return;
+        }
+        inner.add(nums[index]);
+        
+        subsetss(outer, nums, inner, index+1);
+
+        inner.remove(inner.size() - 1);
+
+        subsetss(outer, nums, inner, index+1);
     }
 }
 
